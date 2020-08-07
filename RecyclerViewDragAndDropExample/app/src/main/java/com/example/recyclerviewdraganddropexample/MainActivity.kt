@@ -26,19 +26,25 @@ class MainActivity : AppCompatActivity(), OnStartDragListener {
     }
     private fun populateListItem() {
         val users = listOf(
-            "Anuj",
-            "Bhanu",
-            "Chetan",
-            "Devendra",
-            "Esha",
-            "Farmod",
-            "Ganesh",
-            "Hemant",
-            "Ishaan",
-            "Jack",
-            "Kamal",
-            "Lalit",
-            "Mona"
+            "도",
+            "움",
+            "이",
+            "되",
+            "셨",
+            "으",
+            "면",
+            "깃",
+            "허",
+            "브",
+            "에",
+            "별",
+            "좀",
+            "부",
+            "탁",
+            "드",
+            "립",
+            "니",
+            "다"
         )
         adapter.setUsers(users)
     }
